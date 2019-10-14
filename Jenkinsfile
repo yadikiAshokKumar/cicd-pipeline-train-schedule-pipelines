@@ -1,6 +1,6 @@
 pipeline{
  agent any
- {
+ stages {
   stage('repository')
         {
         echo 'running gradle scripts'
